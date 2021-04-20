@@ -1,0 +1,56 @@
+<!--Formulário para cadastro - Eronice Moura-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="formulario3.css" media="screen">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <form class="container">
+        <h1>Novo Cadastro</h1>
+        <div class="titulo">
+            <p><b></p><label for="nome">Nome Completo:</b></label></p>
+            <input type="text" name="nome" id="nome" size="50" maxlength="50">
+        </div>
+
+        <div class="titulo">
+            <p><b><label for="tipo">Tipo:</b></label></p>
+            <label><input type="radio" name="tipo" value="pessoafisica">Pessoa Física</label>
+            <label><input type="radio" name="tipo" value="pessoajuridica">Pessoa Jurídica</label>
+        </div>
+
+        <div class="titulo">
+            <p><b><label for="cpfcnpj">CPF/CNPJ:</b></label></p>
+            <input type="text" name="cpfcnpj" id="cpfcnpj" maxlength="11">
+        </div>
+
+        <div class="titulo">
+            <p><b><label for="nascimento">Data de nascimento:</b></label></p>
+            <input type="date" name="datadenascimento" id="datadenascimento">
+        </div>
+
+        <div class="titulo">
+            <p><b><label for="genero">Gênero:</b></label></p>
+            <label><input type="radio" name="genero" value="masculino">Masculino</label>
+            <label><input type="radio" name="genero" value="feminino">Feminino</label>
+        </div>
+
+        <div class="titulo">
+            <p><b><label for="email">Email:</b></label></p>
+            <input type="email" name="email" id="email" size="40">
+        </div>
+
+        <div>
+            <button id="botao" type="submit">Cadastrar</button>
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
